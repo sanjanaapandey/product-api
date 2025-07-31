@@ -25,8 +25,10 @@ You can view the deployed project here:
 - Dark, clean, responsive interface
 
 ---
-
+```
 ## Project Structure
+
+
 
 product-api/
 │── controllers/
@@ -45,9 +47,9 @@ product-api/
 │── README.md 
 
 
-
+'''
 ---
-
+```
 ## Technology Stack
 - Node.js
 - Express.js
