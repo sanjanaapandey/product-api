@@ -89,50 +89,28 @@ http://localhost:3000
 | GET    | `/products?page&limit` | Paginate results       |
 
 
-Usage
+## Usage with cURL
 
-Creating a Product
+### Creating a Product
+```bash
 curl -X POST http://localhost:3000/products \
 -H "Content-Type: application/json" \
 -d '{"name":"Laptop","price":1200,"description":"High performance laptop"}'
-
-
-Fetching Products
-curl http://localhost:3000/products
-
-
-Updating a Product
-curl -X PUT http://localhost:3000/products/1 \
+```
+### Fetching Products
+```curl http://localhost:3000/products```
+### Updating a Product
+```curl -X PUT http://localhost:3000/products/1 \
 -H "Content-Type: application/json" \
 -d '{"name":"Updated Laptop","price":1300}'
-
-Deleting a Product
+```
+### Deleting a Product
+```bash
 curl -X DELETE http://localhost:3000/products/1
-
-
-
-
-Testing with Postman
-
-You can also test all endpoints using Postman:
-
-Start the server (npm start or npm run dev) and ensure it is running at http://localhost:3000.
-Create a new collection in Postman with base URL: http://localhost:3000/products.
-Example requests:
-Create Product (POST /products)
-{
-  "name": "Laptop",
-  "price": 1200,
-  "description": "High performance laptop"
-}
-Get All Products (GET /products)
-Get Product by ID (GET /products/1)
-Update Product (PUT /products/1)
-Delete Product (DELETE /products/1)
-Search Products (GET /products/search?q=laptop)
-Paginate Products (GET /products?page=1&limit=5)
-
+```
 Author
 
 Sanjana Pandey
-Product API Developer
+Product API Developer 
+
+
