@@ -2,7 +2,7 @@
 
 A complete Product Inventory Management System built with Node.js and Express.js.  
 This project provides a REST API for product management along with a simple frontend UI for interacting with the API.
-You can view the deployed project here:  
+You can view the deployed project here:  product-api-one-wheat.vercel.app
 ---
 
 ## Features
